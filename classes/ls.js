@@ -1,0 +1,4 @@
+class LS{
+	addBook(book){
+	}
+}

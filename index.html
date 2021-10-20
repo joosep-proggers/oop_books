@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <title>JS alused</title>
+    </head>
+    <body>
+        <div class="container">
+        <!-- Page Content goes here -->
+            <div class="row">
+                <div class="col s12">
+                    <h2>JS alused - DOM</h2>
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">Sitahäda</span>
+                            <div class="row">
+                                <form id="task-form">
+                                    <div class="input-field col s12">
+                                        <input id="title" type="text">
+                                        <label for="task">Title</label>
+                                    </div>
+                                    <div class="input-field col s12">
+                                        <input id="author" type="text">
+                                        <label for="author">Author</label>
+                                    </div>
+                                    <div class="input-field col s12">
+                                        <input id="isbn" type="text">
+                                        <label for="isbn">ISBN#</label>
+                                    </div>
+                                    <input type="submit" value="Submit" class="btn">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="card-action">
+                            <table>
+                                <thead>  
+                                    <tr>
+                                        <th>Title</th>
+                                        <th>Author</th>
+                                        <th>ISBN</th>
+                                        <th> </th>
+                                    </tr>
+                                </thead>
+                                <tbody id="juuxur">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- classes -->
+        <script src="classes/book.js"></script>
+        <script src="classes/ui.js"></script>
+        <script src="classes/ls.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
